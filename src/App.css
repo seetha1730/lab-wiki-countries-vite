@@ -2,3 +2,10 @@
   margin: 0 auto;
   text-align: center;
 }
+p{margin-bottom: 0;}
+
+.country-details,.countries{width:50%;margin:0 auto;}
+.country-details .border{border-right:0;border-left:0}
+.countries p:last-child{border-bottom:1px solid #d2d2d2}
+.countries p{border:1px solid #d2d2d2 ;border-bottom:none;padding:10px;}
+.countries p a{color:#000;text-decoration: none;}
